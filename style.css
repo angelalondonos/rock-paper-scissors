@@ -1,0 +1,21 @@
+:root{
+    --primario: #4A3D8F;
+    --secundario: #63DB5E;
+    --fondo: #faf3ed;
+}
+
+body{
+    background-color: var(--fondo);
+    font-family: 'Fredoka One', cursive;
+}
+
+h1{
+    color: var(--secundario);
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+    color: var(--primario);
+    font-size: 28px;
+}

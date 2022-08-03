@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Clasic game</title>
-    <script src="./main.js"></script>
 </head>
 <body>
     <h1>Welcome to the game</h1>
-    <h2>Rock Paper Scissors</h2>
+    
+    <section id="choose-play">
+        <h2>choose the play</h2>
+        <label for="rock">Rock</label>
+        <input type="radio" name="hand" id="rock" />
+        <label for="paper">Paper</label>
+        <input type="radio" name="hand" id="paper" />
+        <label for="scissors">Scissors</label>
+        <input type="radio" name="hand" id="scissors" />
+        <button id="button-hand">PLAY</button>
+    </section>
+
+    <section id="result">
+    </section>
+
+    <section id="restart">
+        <button id="button-restart">Restart</button>
+    </section>
+
+    <script src="./main.js"></script>
 </body>
 </html>

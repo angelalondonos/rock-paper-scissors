@@ -26,11 +26,4 @@ function play(){
         }
     }
     console.log("Wins: " + wins + "   Losses: " + losses);
-
-
-
-
-
-
-    
 }
